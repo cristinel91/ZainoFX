@@ -15,38 +15,23 @@ public class Zaino {
 		this.pezzi = new ArrayList<Pezzo>();
 	}
 
-	
-	
-	
 	@Override
 	public String toString() {
 		return String.format("Zaino [nome=%s, capienza=%s]", nome, capienza);
 	}
-
-
-
-
+	
 	public String getNome() {
 		return nome;
 	}
-
-
-
-
+	
 	public int getCapienza() {
 		return capienza;
 	}
-
-
-
-
+	
 	public List<Pezzo> getPezzi() {
 		return pezzi;
 	}
-
-
-
-
+	
 	/**
 	 * Aggiunge un nuovo pezzo al problema dello zaino da risolvere. Il nuovo
 	 * pezzo deve essere diverso da quelli esistenti.
